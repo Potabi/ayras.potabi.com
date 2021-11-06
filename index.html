@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ayras Desktop</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src="https://kit.fontawesome.com/eb07830743.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="overflow-x-hidden">
+        <section class="section h-screen px-2 py-2 bg-gray-900 overflow-hidden">
+            <div class="navbar bg-transparent w-full">
+                <div class="columns w-full">
+                    <div class="column">
+                        <div class="navbar-brand">
+                            <a class="navbar-item" href="https://ayras.potabi.com">
+                                <img src="images/logo.png" alt="" width="28" height="28">
+                                <h1 class="title font-extralight text-white is-5 ml-5">Ayras Desktop Environment</h1>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="mr-2 flex float-right">
+                            <a class="navbar-item text-white rounded" href=""><i class="fab fa-discord"></i></a>
+                            <a class="navbar-item text-white rounded" href=""><i class="fab fa-github"></i></a>
+                            <a class="navbar-item text-white rounded" href="/download"><i class="bi bi-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .bg-banner{
+                    background-image: url("images/banner-background.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .fix-placement{
+                    margin-top: -5rem;
+                }
+            </style>
+            <div class="section h-full bg-banner py-2 flex items-center">
+                <div class="fix-placement">
+                    <h1 class="text-white title">The Ayras Desktop Environment for *nix</h1>
+                    <h2 class="subtitle text-grey-300">Built by the Potabi Foundation. Open-source.</h2>
+                    <div class="buttons">
+                        <a class="button" href="https://github.com/Potabi/ayras">Visit the GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section is-medium has-text-centered flex items-center justify-center">
+            <div>
+                <h1 class="title">Coming soon</h1>
+                <p>This website is still a work-in-progress</p>
+            </div>
+        </section>
+    </body>
+</html>
